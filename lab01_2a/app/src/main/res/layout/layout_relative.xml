@@ -22,7 +22,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/entry"
         android:text="@string/ok"
-        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/margin_start"
         android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_toStartOf="@id/ok"
+        android:layout_alignTop="@id/ok"/>
 
 </RelativeLayout>
