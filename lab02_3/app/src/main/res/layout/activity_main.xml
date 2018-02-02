@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vn.edu.uit.giangtnm.lab02_3.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/quan_ly_nhan_vien"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_max"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_base"
+        android:paddingEnd="@dimen/margin_base"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/manv"/>
+
+        <EditText
+            android:id="@+id/et_ma_nv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <requestFocus/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_base"
+        android:paddingEnd="@dimen/margin_base"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tennv"/>
+
+        <EditText
+            android:id="@+id/et_ten_nv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/margin_base"
+        android:paddingEnd="@dimen/margin_base"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loainv"/>
+
+        <RadioGroup
+            android:id="@+id/rg_loai_nv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rd_chinhthuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/chinhthuc"/>
+
+            <RadioButton
+                android:id="@+id/rd_thoivu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thoivu"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_nhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/nhapnv"/>
+
+    <TextView
+        android:id="@+id/tv_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"/>
+
+    <ListView
+        android:id="@+id/lv_nv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_base"/>
+
+</LinearLayout>

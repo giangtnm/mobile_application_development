@@ -11,3 +11,5 @@ lab01_2c: Create layout sign_in
 lab02_1: ListView with fixed data
 
 lab02_2: Basic ArrayList and ListView
+
+lab02_3: ArrayList and ListView with any object
