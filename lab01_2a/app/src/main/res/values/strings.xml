@@ -9,4 +9,10 @@
     <string name="row_two">row two</string>
     <string name="row_three">row three</string>
     <string name="row_four">row four</string>
+    <string name="open">Open&#8230;</string>
+    <string name="save_as">Save as&#8230;</string>
+    <string name="close">Close&#8230;</string>
+    <string name="more">More&#8230;</string>
+    <string name="type_here">Type here:</string>
+    <string name="ok">OK</string>
 </resources>
