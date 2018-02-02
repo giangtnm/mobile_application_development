@@ -13,3 +13,5 @@ lab02_1: ListView with fixed data
 lab02_2: Basic ArrayList and ListView
 
 lab02_3: ArrayList and ListView with any object
+
+lab02_4: CustomAdapter for ListView

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab02_4</string>
+    <string name="id">ID&#58;</string>
+    <string name="full_name">Full&#160;Name&#58;</string>
+    <string name="is_manager">Is&#160;A&#160;Manager&#58;</string>
+    <string name="staff">Staff</string>
+    <string name="add">Add</string>
+</resources>
