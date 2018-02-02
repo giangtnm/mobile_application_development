@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lab02_2</string>
+    <string name="nhap_ten">Nhập&#160;tên&#58;</string>
+    <string name="nhap">Nhập</string>
+</resources>
