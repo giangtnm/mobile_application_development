@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("ActivityStatus", "Create");
 
         //View by id
-        Button btnTest01 = (Button) findViewById(R.id.btn_test);
+        Button btnTest01 = findViewById(R.id.btn_test);
 
         //Handle click event
         btnTest01.setOnClickListener(new View.OnClickListener() {

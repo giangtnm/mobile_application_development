@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab01_2a</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="yellow">yellow</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="row_one">row one</string>
+    <string name="row_two">row two</string>
+    <string name="row_three">row three</string>
+    <string name="row_four">row four</string>
+</resources>
