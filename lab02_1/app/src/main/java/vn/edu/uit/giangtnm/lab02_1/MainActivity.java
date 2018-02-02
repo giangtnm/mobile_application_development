@@ -16,7 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Create data for arr[] (data source)
-        final String arr[] = {"Teo", "Ty", "Bin", "Bo"};
+        // Data in code java
+//        final String arr[] = {"Teo", "Ty", "Bin", "Bo"};
+        // Data in xml
+        final String arr[] = getResources().getStringArray(R.array.names);
 
         // Get ListView object based on id
         ListView lvPerson = (ListView) findViewById(R.id.lv_person);
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         lvPerson.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                // i is the position of element in 
+                // i is the position of element in arr
                 tvSelection.setText("position:" + i + " ; value = " + arr[i]);
             }
         });
