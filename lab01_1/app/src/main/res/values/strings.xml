@@ -2,4 +2,5 @@
     <string name="app_name">lab01_1</string>
     <string name="test">Test</string>
     <string name="back">Back</string>
+    <string name="title_activity_sub">SubActivity</string>
 </resources>

@@ -1,9 +1,13 @@
 package vn.edu.uit.giangtnm.lab01_1;
 
-/**
- * Created by giangtnm on 2/1/18.
- */
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class SubActivity {
+public class SubActivity extends AppCompatActivity {
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sub);
+    }
 }
