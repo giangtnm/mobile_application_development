@@ -21,3 +21,5 @@ lab03_1: Basic Alert Dialog
 lab03_2: Custom Alert Dialog
 
 lab03_3: Custom Alert Dialog (2)
+
+lab03_4: Basic SQLite
