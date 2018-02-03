@@ -16,4 +16,6 @@ lab02_3: ArrayList and ListView with any object
 
 lab02_4: CustomAdapter for ListView
 
-lab03_1: Basic Dialog
+lab03_1: Basic Alert Dialog
+
+lab03_2: Custom Alert Dialog

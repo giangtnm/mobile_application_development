@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lab03_2</string>
+    <string name="enter_your_name">Enter&#160;your&#160;name&#58;</string>
+    <string name="dialog">Dialog</string>
+</resources>
