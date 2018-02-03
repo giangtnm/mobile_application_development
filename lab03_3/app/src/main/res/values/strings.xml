@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab03_3</string>
+    <string name="username">Username&#58;</string>
+    <string name="password">Password&#58;</string>
+    <string name="dialog">Dialog</string>
+    <string name="sign_in">Sign&#160;in</string>
+    <string name="cancel">Cancel</string>
+</resources>
