@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // execute after press button submit
+    // handle after press button submit
     public void addNewEmployee() {
         //get correct id from checked Radio Button
         int radId = rgType.getCheckedRadioButtonId();

@@ -31,16 +31,16 @@ public class MainActivity extends AppCompatActivity {
         lvPerson = (ListView) findViewById(R.id.lv_person);
         btnSubmit = (Button) findViewById(R.id.btn_nhap);
 
-        //Create ArrayList object
+        // Create ArrayList object
         names = new ArrayList<String>();
 
-        //assign Data source (ArrayList object) to ArrayAdapter
+        // assign Data source (ArrayList object) to ArrayAdapter
         adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, names);
 
         // assign Adapter to ListView
         lvPerson.setAdapter(adapter);
 
-        // execute event after press button
+        // handle event after press button
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // execute event after choose element
+        // handle event after choose element
         lvPerson.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //execute event after Long click
+        // handle event after Long click
         lvPerson.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
